@@ -16,7 +16,7 @@ export const Item = styled.li`
 `;
 
 const isOnlineBgColor = props => {
-  if (props.isonline === 'true') {
+  if (props.status === 'true') {
     return 'green';
   }
   return 'red';
