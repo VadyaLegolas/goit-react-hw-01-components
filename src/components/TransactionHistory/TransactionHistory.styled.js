@@ -11,6 +11,7 @@ margin-left: auto;
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px 4px 4px 4px;
   margin-top: 30px;
+  margin-bottom: 50px;
   border-collapse: collapse;  
   background-color: #fff;
 `;
