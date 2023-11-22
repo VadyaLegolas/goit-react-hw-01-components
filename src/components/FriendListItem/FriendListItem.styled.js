@@ -15,12 +15,12 @@ export const Item = styled.li`
   padding: 10px;
 `;
 
-const isOnlineBgColor = (props) =>{
-    if (props.isonline === 'true') {
-        return "green"
-    }
-    return "red"
-}
+const isOnlineBgColor = props => {
+  if (props.isonline === 'true') {
+    return 'green';
+  }
+  return 'red';
+};
 
 export const Status = styled.span`
   width: 20px;
